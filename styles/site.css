@@ -128,3 +128,66 @@ nav a:hover{
     color: #1B2065;
     font-size: 1.5em;
 }
+.reals {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: 25%;
+}
+.title {
+    text-align: center;
+    font-family: "agbalumo", arial, serif;
+    color:#1B2065;
+    font-size: 2.5em;
+}
+.instructionss {
+    margin-left: 20%;
+    font-family: "agbalumo", arial, serif;
+    color: #FEF65E;
+}
+.bodys {
+    margin-left: 25%;
+    font-family: "agbalumo", arial, serif;
+    font-size: 1.2em;
+    color: #FEF65E;
+}
+.tails {
+    margin-left: 25%;
+    font-family: "agbalumo", arial, serif;
+    font-size: 1.2em;
+    color: #FEF65E;
+}
+.earss {
+    margin-left: 25%;
+    font-family: "agbalumo", arial, serif;
+    font-size: 1.2em;
+    color: #FEF65E;
+}
+.instruct {
+    margin-left: 28%;
+    margin-right: 28%;
+    font-family: "playfair", Helvetica, sans-serif;
+    color: #FEF65E;
+}
+.finishs {
+    text-align: center;
+    color: #FEF65E;
+}
+.dones {
+    text-align: center;
+    color: #FEF65E;
+}
+.puppets {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-bottom: 3%;
+}
+.patterns {
+    background-color:#633877;
+    margin: 3% 20% 3% 20%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
