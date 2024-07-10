@@ -36,6 +36,11 @@
                 <p class="instruct">Sew on the ears and tail. Pull the remaining ends of any strings inside the puppet.</p>
                 <h1 class="dones">Well done!</h1>
             </div>
+                <h1 class="slidertext">Keep track of your rounds.</h1>
+            <div class="slidecontainer">
+                <input type="range" min="0" max="11" value="0" class="slider" id="myRange">
+                <p class="demoround">Round: <span id="demo"></span></p>
+            </div>            
             <img src="images/squirrelpuppet.webp" class="puppets" alt="Squirrel Puppet">
         </main>
         <footer>
@@ -54,5 +59,14 @@
                 </a>
             </div>
         </footer>
+        <script>
+            var slider = document.getElementById("myRange");
+            var output = document.getElementById("demo");
+            output.innerHTML = slider.value;
+            
+            slider.oninput = function() {
+              output.innerHTML = this.value;
+            }
+        </script>
     </body>
 </html>

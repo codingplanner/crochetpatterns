@@ -209,7 +209,12 @@ form {
   form li + li {
     margin-top: 1em;
   }
-  
+  #demo {
+    color:#1B2065;
+  }
+  .demoround {
+    color:#1B2065;
+  }
   label {
     /* Uniform size & alignment */
     display: inline-block;
@@ -262,5 +267,56 @@ form {
     /* make this element invisible until we are ready for it */
     display: none;      
 }
+.slidertext {
+    text-align: center;
+    font-size: 2em;
+    font-family: "agbalumo", arial, serif;
+    color: #1B2065;
+  }
 .moveDown {
     margin-top: 3em;
+}
+.slidecontainer {
+    width: 50%; /* Width of the outside container */
+    margin: auto;
+  }
+  
+  /* The slider itself */
+  .slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  
+  /* Mouse-over effects */
+  .slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 40px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background:#633877; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 40px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background:#633877; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  slidertext {
+    text-align: center;
+    font-size: 1em;
+    font-family: "agbalumo", arial, serif;
+  }
